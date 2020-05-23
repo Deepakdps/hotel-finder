@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=true"
+    ></script>
+    <title>Assignment</title>
+  </head>
+  <body>
+    <div class="choosen">
+      <h2>Chosen Location</h2>
+      Latitude <input type="text" id="lat" readonly="yes" /> Longitude
+      <input type="text" id="lng" readonly="yes" />
+    </div>
+    <h1>Select a location!</h1>
+    <p>
+      Click on a location on the map to select it. Drag the marker to change
+      location.
+    </p>
+
+    <!--map div-->
+    <div id="map"></div>
+
+    <!--our form-->
+
+    <div class="task1">
+      <h3>Task1</h3>
+      Area(in meter square)<input type="text" id="area" readonly="yes" /> Time
+      (in hours)<input type="text" id="time" readonly="yes" />
+    </div>
+  </body>
+  <script type="text/javascript" src="map.js"></script>
+</html>

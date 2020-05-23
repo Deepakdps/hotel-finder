@@ -1,0 +1,25 @@
+#map {
+  width: 100%;
+  height: 400px;
+}
+.task1 {
+  width: 20%;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.task1 input {
+  padding: 5px;
+  display: block;
+}
+
+.choosen {
+  float: right;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.choosen input {
+  padding: 5px;
+}
